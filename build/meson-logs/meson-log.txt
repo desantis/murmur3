@@ -1,0 +1,24 @@
+Build started at 2018-02-26T00:00:34.593318
+Main binary: /usr/bin/python
+Python system: Linux
+The Meson build system
+Version: 0.44.1
+Source dir: /home/mikolaj/dev/urbitdep/murmur3
+Build dir: /home/mikolaj/dev/urbitdep/murmur3/build
+Build type: native build
+Project name: murmur3
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/mikolaj/dev/urbitdep/murmur3/build/meson-private/sanitycheckc.c -o /home/mikolaj/dev/urbitdep/murmur3/build/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/mikolaj/dev/urbitdep/murmur3/build/meson-private/sanitycheckc.exe
+Native C compiler: cc (gcc 7.3.0)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Build targets in project: 1
+Found ninja-1.8.2 at /usr/bin/ninja

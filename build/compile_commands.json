@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/mikolaj/dev/urbitdep/murmur3/build",
+    "command": "cc  -Imurmur3@sha -I. -I.. -I./ -I.././ -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -Wall -O2 -ffast-math -MMD -MQ 'murmur3@sha/murmur3.c.o' -MF 'murmur3@sha/murmur3.c.o.d' -o 'murmur3@sha/murmur3.c.o' -c ../murmur3.c",
+    "file": "../murmur3.c"
+  }
+]

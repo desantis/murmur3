@@ -4,7 +4,7 @@ version = meson.project_version()
 
 inc = include_directories('./')
 install_headers('murmur3.h', subdir: 'murmur3')
-lib = library('murmur3', sources: ['murmur3.c'], version: version,
+lib = static_library('murmur3', sources: ['murmur3.c'], version: version,
 include_directories: inc,
 c_args: ['-Wall', '-O2', '-ffast-math'],
 install: true)

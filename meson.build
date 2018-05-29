@@ -6,7 +6,7 @@ inc = include_directories('./')
 install_headers('murmur3.h', subdir: 'murmur3')
 lib = static_library('murmur3', sources: ['murmur3.c'], version: version,
 include_directories: inc,
-c_args: ['-Wall', '-O2', '-ffast-math'],
+c_args: ['-Wall', '-ffast-math'],
 install: true)
 
 murmur3_dep = declare_dependency(include_directories : inc,
